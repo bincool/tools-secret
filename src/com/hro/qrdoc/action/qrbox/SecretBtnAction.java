@@ -2,10 +2,10 @@
 * @FileName: SecretBtnAction.java
 * @Package: com.hro.qrdoc.action.qrbox
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: SecretBtnAction.java: ¼ÓÃÜ°´Å¥ÊÂ¼ş.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê6ÔÂ11ÈÕ ÏÂÎç12:35:47.
-* @Content: ĞÂÔö.
+* @Description: SecretBtnAction.java: åŠ å¯†æŒ‰é’®äº‹ä»¶.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´6æœˆ11æ—¥ ä¸‹åˆ12:35:47.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package com.hro.qrdoc.action.qrbox;
@@ -26,40 +26,40 @@ import com.hro.qrdoc.utils.StringUtils;
 * 
 * @Description: 
 * <p>
-* ¼ÓÃÜ°´Å¥ÊÂ¼ş.
+* åŠ å¯†æŒ‰é’®äº‹ä»¶.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê6ÔÂ11ÈÕ ÏÂÎç12:35:47.
+* @Date: 2018å¹´6æœˆ11æ—¥ ä¸‹åˆ12:35:47.
 * 
 */
 public class SecretBtnAction extends BaseAction 
 {
 	
 	/**
-	 * ¶şÎ¬Âë×°ÏäÒ³Ãæbean.
+	 * äºŒç»´ç è£…ç®±é¡µé¢bean.
 	 */
 	private SecretPage secretPage;
 	
 	/**
-	 * ÓÃ»§ÃûÕıÔòĞ£Ñé.
+	 * ç”¨æˆ·åæ­£åˆ™æ ¡éªŒ.
 	 */
 	private static final String usernameRegex = "^[a-zA-Z0-9]+[a-zA-Z0-9_]*{1,}$";
 	
 	/**
-	 * ÃÜÂëÕıÔòĞ£Ñé.
+	 * å¯†ç æ­£åˆ™æ ¡éªŒ.
 	 */
 	private static final String passwordRegex = "^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,}$";
 	
 	/**
-	 * ÓĞ²Î¹¹Ôìº¯Êı.
+	 * æœ‰å‚æ„é€ å‡½æ•°.
 	 * @param qrBoxPage
 	 */
 	public SecretBtnAction(SecretPage qrBoxPage) 

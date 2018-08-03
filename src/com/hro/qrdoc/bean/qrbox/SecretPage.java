@@ -2,10 +2,10 @@
 * @FileName: SecretPage.java
 * @Package: com.hro.qrdoc.bean.qrbox
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: SecretPage.java: ¼ÓÃÜÒ³Ãæbean.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê6ÔÂ7ÈÕ ÏÂÎç4:44:30.
-* @Content: ĞÂÔö.
+* @Description: SecretPage.java: åŠ å¯†é¡µé¢bean.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´6æœˆ7æ—¥ ä¸‹åˆ4:44:30.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package com.hro.qrdoc.bean.qrbox;
@@ -19,18 +19,18 @@ import com.hro.qrdoc.ui.panel.base.DefaultInputPanel;
 * 
 * @Description: 
 * <p>
-* ¼ÓÃÜÒ³Ãæbean.
+* åŠ å¯†é¡µé¢bean.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö£º¼ÓÃÜÒ³Ãæbean.
+* è¯¦ç»†æè¿°ï¼šåŠ å¯†é¡µé¢bean.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê6ÔÂ7ÈÕ ÏÂÎç4:44:30.
+* @Date: 2018å¹´6æœˆ7æ—¥ ä¸‹åˆ4:44:30.
 * 
 */
 /**
@@ -38,45 +38,45 @@ import com.hro.qrdoc.ui.panel.base.DefaultInputPanel;
 * 
 * @Description: 
 * <p>
-* Ò»¾ä»°¶ÔÕâ¸öÀà½øĞĞÃèÊö.
+* ä¸€å¥è¯å¯¹è¿™ä¸ªç±»è¿›è¡Œæè¿°.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê6ÔÂ7ÈÕ ÏÂÎç4:49:04.
+* @Date: 2018å¹´6æœˆ7æ—¥ ä¸‹åˆ4:49:04.
 * 
 */
 public class SecretPage implements Serializable
 {
 	
 	/**
-	 * ĞòÁĞ°æ±¾ºÅ.
+	 * åºåˆ—ç‰ˆæœ¬å·.
 	 */
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * ÓÃ»§ÃûÊäÈë¿ò.
+	 * ç”¨æˆ·åè¾“å…¥æ¡†.
 	 */
 	private DefaultInputPanel usernamePanel;
 	
 	/**
-	 * ÃÜÂëÊäÈë¿ò.
+	 * å¯†ç è¾“å…¥æ¡†.
 	 */
 	private DefaultInputPanel passwordPanel;
 	
 	/**
-	 * ÃÜÎÄ.
+	 * å¯†æ–‡.
 	 */
 	private DefaultInputPanel secretPanel;
 
 	/**
-	 * »ñÈ¡usernamePanel.
+	 * è·å–usernamePanel.
 	 * @return
 	 *     usernamePanel.
 	 */
@@ -86,7 +86,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * »ñÈ¡usernamePanel.
+	 * è·å–usernamePanel.
 	 * @return
 	 *     usernamePanel.
 	 */
@@ -96,7 +96,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * ÉèÖÃusernamePanel.
+	 * è®¾ç½®usernamePanel.
 	 * @param
 	 *     usernamePanel.
 	 */
@@ -106,7 +106,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * »ñÈ¡passwordPanel.
+	 * è·å–passwordPanel.
 	 * @return
 	 *     passwordPanel.
 	 */
@@ -116,7 +116,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * »ñÈ¡passwordPanel.
+	 * è·å–passwordPanel.
 	 * @return
 	 *     passwordPanel.
 	 */
@@ -126,7 +126,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * ÉèÖÃpasswordPanel.
+	 * è®¾ç½®passwordPanel.
 	 * @param
 	 *     passwordPanel.
 	 */
@@ -136,7 +136,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * »ñÈ¡secretPanel.
+	 * è·å–secretPanel.
 	 * @return
 	 *     secretPanel.
 	 */
@@ -146,7 +146,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * »ñÈ¡secretPanel.
+	 * è·å–secretPanel.
 	 * @return
 	 *     secretPanel.
 	 */
@@ -156,7 +156,7 @@ public class SecretPage implements Serializable
 	}
 
 	/**
-	 * ÉèÖÃsecretPanel.
+	 * è®¾ç½®secretPanel.
 	 * @param
 	 *     secretPanel.
 	 */
@@ -183,7 +183,7 @@ public class SecretPage implements Serializable
 	}
 	
 	/**
-	 * »ñÈ¡DefaultInputPanelÖĞµÄÖµ.
+	 * è·å–DefaultInputPanelä¸­çš„å€¼.
 	 * @param inputPanel
 	 * @return
 	 */

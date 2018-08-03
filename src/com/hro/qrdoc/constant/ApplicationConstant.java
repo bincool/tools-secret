@@ -2,10 +2,10 @@
 * @FileName: ApplicationConstant.java
 * @Package: xyz.wchy.constant
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: ApplicationConstant.java: ¼ÇÊÂ±¾³£Á¿-¿ÉÅäÖÃ.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
-* @Content: ĞÂÔö.
+* @Description: ApplicationConstant.java: è®°äº‹æœ¬å¸¸é‡-å¯é…ç½®.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package com.hro.qrdoc.constant;
@@ -19,85 +19,85 @@ import com.hro.qrdoc.utils.ApplicationConfigHelper;
 * 
 * @Description: 
 * <p>
-* ¼ÇÊÂ±¾³£Á¿-¿ÉÔÚapplication.propertiesÖĞÅäÖÃÆä³£Á¿¾ßÌåÖµ.
+* è®°äº‹æœ¬å¸¸é‡-å¯åœ¨application.propertiesä¸­é…ç½®å…¶å¸¸é‡å…·ä½“å€¼.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
+* @Date: 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
 * 
 */
 public interface ApplicationConstant 
 {
 	
 	/**
-	 * Ó¦ÓÃÅäÖÃ.
+	 * åº”ç”¨é…ç½®.
 	 */
 	Map<String, String> APP_CONFIGS = ApplicationConfigHelper.getInstance().getPropMap();
 	
 	/**
-	 * Frame±êÌâ.
+	 * Frameæ ‡é¢˜.
 	 */
 	String FRAME_TITLE = APP_CONFIGS.get("frame.title");
 	
 	/**
-	 * logoÍ¼±êÂ·¾¶.
+	 * logoå›¾æ ‡è·¯å¾„.
 	 */
 	String FRAME_ICON_PATH = APP_CONFIGS.get("frame.icon.path");
 	
 	/**
-	 * Í¼±êÂ·¾¶£ºÈ¡ÏûÏÔÊ¾Í¼±êÂ·¾¶.
+	 * å›¾æ ‡è·¯å¾„ï¼šå–æ¶ˆæ˜¾ç¤ºå›¾æ ‡è·¯å¾„.
 	 */
 	String FRAME_CANCEL_SHOW_PATH = APP_CONFIGS.get("image.cancel.show.path");
 	
 	/**
-	 * Í¼±êÂ·¾¶£ºÈ¡ÏûÒş²ØÍ¼±êÂ·¾¶.
+	 * å›¾æ ‡è·¯å¾„ï¼šå–æ¶ˆéšè—å›¾æ ‡è·¯å¾„.
 	 */
 	String FRAME_CANCEL_HIDE_PATH = APP_CONFIGS.get("image.cancel.hide.path");
 	
 	/**
-	 * label±êÌâ£ºÓÃ»§Ãû.
+	 * labelæ ‡é¢˜ï¼šç”¨æˆ·å.
 	 */
 	String LABEL_TITLE_USERNAME = APP_CONFIGS.get("label.title.username");
 	
 	/**
-	 * label±êÌâ£ºÃÜÂë.
+	 * labelæ ‡é¢˜ï¼šå¯†ç .
 	 */
 	String LABEL_TITLE_PASSWORD = APP_CONFIGS.get("label.title.password");
 	
 	/**
-	 * label±êÌâ£ºÃÜÎÄ.
+	 * labelæ ‡é¢˜ï¼šå¯†æ–‡.
 	 */
 	String LABEL_TITLE_SECRET = APP_CONFIGS.get("label.title.secret");
 	
 	/**
-	 * button±êÌâ£º¼ÓÃÜ.
+	 * buttonæ ‡é¢˜ï¼šåŠ å¯†.
 	 */
 	String BUTTON_TITLE_NEXTBTN = APP_CONFIGS.get("button.title.secret");
 	
 	/**
-	 * ¾¯¸æÌáÊ¾£ºaction¹¦ÄÜÎ´¿ª·Å¾¯¸æ.
+	 * è­¦å‘Šæç¤ºï¼šactionåŠŸèƒ½æœªå¼€æ”¾è­¦å‘Š.
 	 */
 	String WARN_ACTION_FUN_NOTOPEN = APP_CONFIGS.get("warn.action.fun.notopen");
 	
 	/**
-	 * ¾¯¸æ£ºÓÃ»§Ãû²»ÄÜÎª¿Õ.
+	 * è­¦å‘Šï¼šç”¨æˆ·åä¸èƒ½ä¸ºç©º.
 	 */
 	String WARN_USERNAME_NULL = APP_CONFIGS.get("secretpage.params.verify.err.username");
 	
 	/**
-	 * ¾¯¸æ£ºÃÜÂë²»ÄÜÎª¿Õ.secretpage.params.verify.ok
+	 * è­¦å‘Šï¼šå¯†ç ä¸èƒ½ä¸ºç©º.secretpage.params.verify.ok
 	 */
 	String WARN_PASSWORD_NULL = APP_CONFIGS.get("secretpage.params.verify.err.password");
 	
 	/**
-	 * Ğ£ÑéÍ¨¹ı.
+	 * æ ¡éªŒé€šè¿‡.
 	 */
 	String VERIFY_OK = APP_CONFIGS.get("secretpage.params.verify.ok");
 	

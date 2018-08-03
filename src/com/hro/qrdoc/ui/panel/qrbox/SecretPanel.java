@@ -2,10 +2,10 @@
 * @FileName: SecretPanel.java
 * @Package: com.hro.qrdoc.ui.panel.qrbox
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: SecretPanel.java: ¼ÓÃÜPanel.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê6ÔÂ7ÈÕ ÉÏÎç10:40:17.
-* @Content: ĞÂÔö.
+* @Description: SecretPanel.java: åŠ å¯†Panel.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´6æœˆ7æ—¥ ä¸Šåˆ10:40:17.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package com.hro.qrdoc.ui.panel.qrbox;
@@ -26,70 +26,70 @@ import com.hro.qrdoc.ui.panel.base.DefaultInputPanel;
 * 
 * @Description: 
 * <p>
-* ¼ÓÃÜPanel.
+* åŠ å¯†Panel.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê6ÔÂ7ÈÕ ÉÏÎç10:40:17.
+* @Date: 2018å¹´6æœˆ7æ—¥ ä¸Šåˆ10:40:17.
 * 
 */
 public class SecretPanel extends JPanel 
 {
 
 	/**
-	 * ĞòÁĞ°æ±¾ºÅ.
+	 * åºåˆ—ç‰ˆæœ¬å·.
 	 */
 	private static final long serialVersionUID = 1L;
 	
 	/**
-	 * ÓÃ»§ÃûÊäÈë¿òÌáÊ¾±êÇ©.
+	 * ç”¨æˆ·åè¾“å…¥æ¡†æç¤ºæ ‡ç­¾.
 	 */
 	private JLabel usernameLabel = new JLabel(ApplicationConstant.LABEL_TITLE_USERNAME);
 	
 	/**
-	 * ÓÃ»§ÃûÊäÈë¿ò.
+	 * ç”¨æˆ·åè¾“å…¥æ¡†.
 	 */
 	private DefaultInputPanel usernamePanel = new DefaultInputPanel(Color.LIGHT_GRAY, new Color(56, 172, 239));
 	
 	/**
-	 * ÃÜÂëÊäÈë¿òÌáÊ¾±êÇ©.
+	 * å¯†ç è¾“å…¥æ¡†æç¤ºæ ‡ç­¾.
 	 */
 	private JLabel passwordLabel = new JLabel(ApplicationConstant.LABEL_TITLE_PASSWORD);
 	
 	/**
-	 * ÃÜÂëÊäÈë¿ò.
+	 * å¯†ç è¾“å…¥æ¡†.
 	 */
 	private DefaultInputPanel passwordPanel = new DefaultInputPanel(Color.LIGHT_GRAY, new Color(56, 172, 239));
 	
 	/**
-	 * ÃÜÎÄÌáÊ¾±êÇ©.
+	 * å¯†æ–‡æç¤ºæ ‡ç­¾.
 	 */
 	private JLabel secretLabel = new JLabel(ApplicationConstant.LABEL_TITLE_SECRET);
 	
 	/**
-	 * ÃÜÎÄÊäÈë¿ò.
+	 * å¯†æ–‡è¾“å…¥æ¡†.
 	 */
 	private DefaultInputPanel secretPanel = new DefaultInputPanel(Color.LIGHT_GRAY, new Color(56, 172, 239));
 	
 	/**
-	 * ¶şÎ¬Âë×°ÏäÒ³Ãæbean.
+	 * äºŒç»´ç è£…ç®±é¡µé¢bean.
 	 */
 	private SecretPage qrBoxPage = new SecretPage();
 	
 	/**
-	 * ¼ÓÃÜ°´Å¥.
+	 * åŠ å¯†æŒ‰é’®.
 	 */
 	private JButton secretBtn = new JButton(ApplicationConstant.BUTTON_TITLE_NEXTBTN);
 	
 	/**
-	 * ÎŞ²Î¹¹Ôìº¯Êı.
+	 * æ— å‚æ„é€ å‡½æ•°.
 	 */
 	public SecretPanel() 
 	{
@@ -98,7 +98,7 @@ public class SecretPanel extends JPanel
 	}
 	
 	/**
-	 * »ñÈ¡usernamePanel.
+	 * è·å–usernamePanel.
 	 * @return
 	 *     usernamePanel.
 	 */
@@ -108,7 +108,7 @@ public class SecretPanel extends JPanel
 	}
 	
 	/**
-	 * »ñÈ¡passwordPanel.
+	 * è·å–passwordPanel.
 	 * @return
 	 *     passwordPanel.
 	 */
@@ -118,7 +118,7 @@ public class SecretPanel extends JPanel
 	}
 	
 	/**
-	 * »ñÈ¡secretPanel.
+	 * è·å–secretPanel.
 	 * @return
 	 *     secretPanel.
 	 */
@@ -128,37 +128,37 @@ public class SecretPanel extends JPanel
 	}
 
 	/**
-	 * ³õÊ¼»¯¶şÎ¬Âë×°Ïäpanel.
+	 * åˆå§‹åŒ–äºŒç»´ç è£…ç®±panel.
 	 */
 	private void initLayout() 
 	{
 		this.setLayout(null);
 		
-		// ÓÃ»§ÃûÊäÈë¿ò.
+		// ç”¨æˆ·åè¾“å…¥æ¡†.
 		usernameLabel.setBounds(25, 20, 70, 35);
 		usernamePanel.setBounds(80, 20, 300, 35);
 		this.add(usernameLabel);
 		this.add(usernamePanel);
 		
-		// ÃÜÂëÊäÈë¿ò.
+		// å¯†ç è¾“å…¥æ¡†.
 		passwordLabel.setBounds(25, 60, 70, 35);
 		passwordPanel.setBounds(80, 60, 300, 35);
 		this.add(passwordLabel);
 		this.add(passwordPanel);
 		
-		// ÃÜÎÄ.
+		// å¯†æ–‡.
 		secretLabel.setBounds(25, 100, 70, 35);
 		secretPanel.setBounds(80, 100, 300, 35);
 		this.add(secretLabel);
 		this.add(secretPanel);
 		
-		// ¼ÓÃÜ.
+		// åŠ å¯†.
 		secretBtn.setBounds(180, 150, 80, 30);
 		this.add(secretBtn);
 	}
 
 	/**
-	 * ³õÊ¼»¯¶şÎ¬Âë×°ÏäÊÂ¼ş°ó¶¨.
+	 * åˆå§‹åŒ–äºŒç»´ç è£…ç®±äº‹ä»¶ç»‘å®š.
 	 */
 	protected void initAction() 
 	{
@@ -166,7 +166,7 @@ public class SecretPanel extends JPanel
 		qrBoxPage.setPasswordPanel(passwordPanel);
 		qrBoxPage.setSecretPanel(secretPanel);
 		
-		// ¼ÓÃÜ.
+		// åŠ å¯†.
 		secretBtn.addActionListener(new SecretBtnAction(qrBoxPage));
 		
 	}
